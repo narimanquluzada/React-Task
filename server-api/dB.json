@@ -1,0 +1,191 @@
+{
+  "employers": [
+    {
+      "id": "1",
+      "name": "Arif"
+    },
+    {
+      "id": "2",
+      "name": "Nicat"
+    },
+    {
+      "id": "3",
+      "name": "Elnur"
+    },
+    {
+      "id": "4",
+      "name": "Kenan"
+    },
+    {
+      "id": "5",
+      "name": "Ferid"
+    },
+    {
+      "id": "6",
+      "name": "Azer"
+    },
+    {
+      "id": "7",
+      "name": "Taleh"
+    }
+  ],
+  "tables": [
+    {
+      "id": "1",
+      "name": "MASA 1",
+      "statusOfTable": 0,
+      "tableWaiterName": "",
+      "totalofPrice": "",
+      "time": "",
+      "status": 0
+    },
+    {
+      "id": "2",
+      "name": "MASA 2",
+      "statusOfTable": 0,
+      "tableWaiterName": "",
+      "totalofPrice": "",
+      "time": "",
+      "status": 0
+    },
+    {
+      "id": "3",
+      "name": "MASA 3",
+      "statusOfTable": 0,
+      "tableWaiterName": "",
+      "totalofPrice": "",
+      "time": "",
+      "status": 0
+    },
+    {
+      "id": "4",
+      "name": "MASA 4",
+      "statusOfTable": 2,
+      "tableWaiterName": "Arif",
+      "totalofPrice": 26.6,
+      "time": "12-6-2022 6:24:51 PM",
+      "status": 1
+    },
+    {
+      "id": "5",
+      "name": "MASA 5",
+      "statusOfTable": 0,
+      "tableWaiterName": "",
+      "totalofPrice": "",
+      "time": "",
+      "status": 0
+    },
+    {
+      "id": "6",
+      "name": "MASA 6",
+      "statusOfTable": 0,
+      "tableWaiterName": "",
+      "totalofPrice": "",
+      "time": "",
+      "status": 0
+    },
+    {
+      "id": "7",
+      "name": "MASA 7",
+      "statusOfTable": 1,
+      "tableWaiterName": "Nicat",
+      "totalofPrice": 22.8,
+      "time": "",
+      "status": 1
+    },
+    {
+      "id": "8",
+      "name": "MASA 8",
+      "statusOfTable": 0,
+      "tableWaiterName": "",
+      "totalofPrice": "",
+      "time": "",
+      "status": 0
+    }
+  ],
+  "meals": [
+    {
+      "id": "1",
+      "Title": "Toyuq doneri",
+      "Price": "2.20"
+    },
+    {
+      "id": "2",
+      "Title": "Et doneri",
+      "Price": "3.50"
+    },
+    {
+      "id": "3",
+      "Title": "Saurma",
+      "Price": "3.70"
+    },
+    {
+      "id": "4",
+      "Title": "Fri",
+      "Price": "1.50"
+    },
+    {
+      "id": "5",
+      "Title": "Qamburger",
+      "Price": "1.30"
+    },
+    {
+      "id": "6",
+      "Title": "Quzu Kababi",
+      "Price": "5.00"
+    },
+    {
+      "id": "7",
+      "Title": "Toyuq Kababi",
+      "Price": "3.50"
+    },
+    {
+      "id": "8",
+      "Title": "Antrikot",
+      "Price": "5.50"
+    },
+    {
+      "id": "9",
+      "Title": "Qovurma",
+      "Price": "3.50"
+    },
+    {
+      "id": "10",
+      "Title": "Merci supu",
+      "Price": "1.50"
+    }
+  ],
+  "M1": [],
+  "M2": [],
+  "M3": [],
+  "M4": [],
+  "M5": [],
+  "M6": [],
+  "M7": [
+    {
+      "tableName": "MASA7",
+      "waiterName": "Nicat",
+      "mealsName": "Toyuq doneri",
+      "mealsCount": 4,
+      "totalPrice": 8.8,
+      "time": "6:24:26 PM",
+      "orderStatus": 1,
+      "initialMinute": 0,
+      "initialSeconds": 0,
+      "id": 1
+    },
+    {
+      "tableName": "MASA7",
+      "waiterName": "",
+      "mealsName": "Et doneri",
+      "mealsCount": 4,
+      "totalPrice": 14,
+      "time": "6:24:26 PM",
+      "orderStatus": 1,
+      "initialMinute": 0,
+      "initialSeconds": 0,
+      "id": 2
+    }
+  ],
+  "M8": []
+}

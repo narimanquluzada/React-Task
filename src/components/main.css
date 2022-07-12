@@ -1,0 +1,179 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+body{
+  background-image: url(./rest.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-menu {
+background:transparent;
+
+height:100%;
+width: 100%;
+z-index:1000;
+}
+
+.main-menu>ul {
+margin:7px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+}
+
+.main-menu li>a {
+  position: relative;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #fff;
+  font-family: arial;
+  font-size: 17px;
+  text-decoration: none;
+  background-color: #505048;
+  transition: all .1s linear;
+  
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+}
+.area {
+float: left;
+width: 100%;
+height: 100%;
+}
+
+.btn-d{
+  width: 220px !important;
+  padding: 10px !important;
+  margin-top: 30px !important;
+  margin-left: 10px;
+}
+
+
+.main-information{  
+  position: absolute;
+  right: 280px;
+  top:190px
+  
+  
+  
+    
+}
+.card{
+  
+    height:180px;
+    width: 200px;
+    text-align: center;
+    background-color: #191812;
+
+}
+.card-icon {
+ padding-top: 15px;
+  display: inline-block;
+  margin: auto;
+  font-size: 40px;
+  color: #fff;
+
+}
+
+.card-title{
+  margin-top: 10px;
+  color: #fff;
+}
+.picture{
+  width: 100%;
+
+}
+
+.card-col{
+  margin-left: 30px !important;
+}
+
+
+.meals-menu .meals-inform{
+display: flex;
+justify-content: space-between;
+}
+
+
+.managcss{
+  position: relative;
+}
+
+.order-title{
+  color: #fff;
+  margin-bottom: 10px;
+}
